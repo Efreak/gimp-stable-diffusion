@@ -26,11 +26,7 @@ and scroll down to "folders". Expand "folders" and click on
 "plug-ins". Select the folder which includes your username and open
 your file manager there.
 
-
-
-https://github.com/user-attachments/assets/aec71b81-b410-45e5-9654-294df9dadd84
-
-
+https://github.com/user-attachments/assets/f67fdc9e-dc6b-49ba-a4b4-0f4b2677c276
 
 2. Unzip the downloaded file in your `plug-ins` folder. If
 you are on MacOS or Linux, change the file permissions to 764, leave
