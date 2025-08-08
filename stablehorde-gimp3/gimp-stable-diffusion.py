@@ -147,11 +147,12 @@ DEFAULT_MODEL = "stable_diffusion"
 Model that is always present for image generation
 """
 
-MIN_WIDTH = 384
-MAX_WIDTH = 1024
-MIN_HEIGHT = 384
-MAX_HEIGHT = 1024
-MIN_PROMPT_LENGTH = 10
+MIN_WIDTH = 64
+MAX_WIDTH = 3072
+MIN_HEIGHT = 64
+MAX_HEIGHT = 3072
+MIN_PROMPT_LENGTH = 0
+MAX_MP = 2048*2048
 """
 It's  needed that the user writes down something to create an image from
 """
@@ -1341,6 +1342,7 @@ class StableDiffusion(Gimp.PlugIn):
                 or width > MAX_WIDTH
                 or height < MIN_HEIGHT
                 or height > MAX_HEIGHT
+                or width*height > MAX_MP
             ):
                 return procedure.new_return_values(
                     Gimp.PDBStatusType.CALLING_ERROR,

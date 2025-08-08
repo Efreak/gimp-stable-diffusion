@@ -19,19 +19,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.6\n"
 
-#: gimp-stable-diffusion.py:362
+#: gimp-stable-diffusion.py:363
 msgid "Starting"
 msgstr "Starting"
 
-#: gimp-stable-diffusion.py:436
+#: gimp-stable-diffusion.py:437
 msgid "Updating models"
 msgstr "Updating Models..."
 
-#: gimp-stable-diffusion.py:443
+#: gimp-stable-diffusion.py:444
 msgid "Tried to get the latest models, check your Internet connection"
 msgstr "Failed to get latest models, check your Internet connection"
 
-#: gimp-stable-diffusion.py:482
+#: gimp-stable-diffusion.py:483
 msgid ""
 "We have a new model:\n"
 "\n"
@@ -41,7 +41,7 @@ msgstr ""
 "\n"
 " * "
 
-#: gimp-stable-diffusion.py:484
+#: gimp-stable-diffusion.py:485
 msgid ""
 "We have new models:\n"
 " * "
@@ -49,63 +49,63 @@ msgstr ""
 "We have new models:\n"
 " * "
 
-#: gimp-stable-diffusion.py:542
+#: gimp-stable-diffusion.py:543
 msgid "Tried to check for most recent version, check your Internet connection"
 msgstr "Failed to check for most recent version, check your Internet connection"
 
-#: gimp-stable-diffusion.py:553
+#: gimp-stable-diffusion.py:554
 msgid "Register at "
 msgstr "Register at "
 
-#: gimp-stable-diffusion.py:597
+#: gimp-stable-diffusion.py:598
 msgid "Contacting the Horde"
 msgstr "Contacting the Horde"
 
-#: gimp-stable-diffusion.py:661
+#: gimp-stable-diffusion.py:662
 msgid "Horde Contacted"
 msgstr "Horda Contacted"
 
-#: gimp-stable-diffusion.py:682
+#: gimp-stable-diffusion.py:683
 msgid "to learn to earn kudos. Detail:"
 msgstr "to learn to earn kudos. Detail:"
 
-#: gimp-stable-diffusion.py:699
+#: gimp-stable-diffusion.py:700
 msgid "Internet required, chek your connection: "
 msgstr "Internet required, check your connection: "
 
-#: gimp-stable-diffusion.py:721
+#: gimp-stable-diffusion.py:722
 msgid "Stablehorde said: "
 msgstr "AI Horde response: "
 
-#: gimp-stable-diffusion.py:725
+#: gimp-stable-diffusion.py:726
 msgid "Internet required, check your connection"
 msgstr "Internet required, check your connection"
 
-#: gimp-stable-diffusion.py:735
+#: gimp-stable-diffusion.py:736
 msgid "Service failed with: "
 msgstr "Service failed with: "
 
-#: gimp-stable-diffusion.py:783
+#: gimp-stable-diffusion.py:784
 msgid "Downloading generated image"
 msgstr "Downloading generated image"
 
-#: gimp-stable-diffusion.py:789
+#: gimp-stable-diffusion.py:790
 msgid "You are the first in the queue"
 msgstr "You are first in the queue"
 
-#: gimp-stable-diffusion.py:791
+#: gimp-stable-diffusion.py:792
 msgid "Queue position: "
 msgstr "Queue position: "
 
-#: gimp-stable-diffusion.py:794
+#: gimp-stable-diffusion.py:795
 msgid "Generating..."
 msgstr "Generating..."
 
-#: gimp-stable-diffusion.py:807 gimp-stable-diffusion.py:844
+#: gimp-stable-diffusion.py:808 gimp-stable-diffusion.py:845
 msgid "Get an Api key for free at "
 msgstr "Get a free API Key at "
 
-#: gimp-stable-diffusion.py:810 gimp-stable-diffusion.py:847
+#: gimp-stable-diffusion.py:811 gimp-stable-diffusion.py:848
 msgid ""
 ".\n"
 " This model takes more time than your current configuration."
@@ -113,33 +113,33 @@ msgstr ""
 ".\n"
 " This model takes more time than your current configuration."
 
-#: gimp-stable-diffusion.py:816
+#: gimp-stable-diffusion.py:817
 msgid "Please try with other model,"
 msgstr "Please try another model,"
 
-#: gimp-stable-diffusion.py:818
+#: gimp-stable-diffusion.py:819
 msgid " or try again later."
 msgstr " or try again later."
 
-#: gimp-stable-diffusion.py:838
+#: gimp-stable-diffusion.py:839
 msgid ""
 "Currently no worker available to generate your image. Please try again later."
 msgstr ""
 "There are no workers available with these settings. Please try again later."
 
-#: gimp-stable-diffusion.py:857 gimp-stable-diffusion.py:862
+#: gimp-stable-diffusion.py:858 gimp-stable-diffusion.py:863
 msgid "Please try again later."
 msgstr "Please try again later."
 
-#: gimp-stable-diffusion.py:872
+#: gimp-stable-diffusion.py:873
 msgid "fetching images"
 msgstr "fetching images"
 
-#: gimp-stable-diffusion.py:896
+#: gimp-stable-diffusion.py:897
 msgid "Downloading result"
 msgstr "Downloading result"
 
-#: gimp-stable-diffusion.py:914
+#: gimp-stable-diffusion.py:915
 msgid ""
 "Maybe you need to change some parameters to generate succesfully an image. "
 "Horde said:\n"
@@ -149,71 +149,71 @@ msgstr ""
 " * "
 
 #. TRANSLATORS: This is the menu, the _ indicates the fast key in the menu
-#: gimp-stable-diffusion.py:1073
+#: gimp-stable-diffusion.py:1074
 msgid "_Create Image from Prompt"
 msgstr "_Generate"
 
 #. TRANSLATORS: Dialog title
-#: gimp-stable-diffusion.py:1075
+#: gimp-stable-diffusion.py:1076
 msgid "From Text"
 msgstr "Text2Image"
 
-#: gimp-stable-diffusion.py:1076
+#: gimp-stable-diffusion.py:1077
 msgid "Create an image from a prompt"
 msgstr "Img2Img"
 
 #. TRANSLATORS: This is the menu, the _ indicates the fast key in the menu
-#: gimp-stable-diffusion.py:1078
+#: gimp-stable-diffusion.py:1079
 msgid "_Use Image with Prompt"
 msgstr "_Image2Image"
 
 #. TRANSLATORS: Dialog title
-#: gimp-stable-diffusion.py:1080
+#: gimp-stable-diffusion.py:1081
 msgid "Use style image"
 msgstr "image 2 image"
 
-#: gimp-stable-diffusion.py:1082
+#: gimp-stable-diffusion.py:1083
 msgid "Create an image from a prompt using the style of the current image"
 msgstr "Generate a variation of the current image using i2i"
 
 #. TRANSLATORS: This is the menu, the _ indicates the fast key in the menu
-#: gimp-stable-diffusion.py:1085
+#: gimp-stable-diffusion.py:1086
 msgid "In_painting"
 msgstr "In_painting"
 
 #. TRANSLATORS: Dialog title
-#: gimp-stable-diffusion.py:1087
+#: gimp-stable-diffusion.py:1088
 msgid "Inpaint"
 msgstr "Inpaint area"
 
-#: gimp-stable-diffusion.py:1089
+#: gimp-stable-diffusion.py:1090
 msgid ""
 "Replace a deleted portion of the image according to a prompt, make sure you "
 "see that part transparent"
 msgstr ""
 "Inpaint transparency"
 
-#: gimp-stable-diffusion.py:1115
+#: gimp-stable-diffusion.py:1116
 msgid "W_idth"
 msgstr "W_idth"
 
-#: gimp-stable-diffusion.py:1124
+#: gimp-stable-diffusion.py:1125
 msgid "Height"
 msgstr "Height"
 
-#: gimp-stable-diffusion.py:1133
+#: gimp-stable-diffusion.py:1134
 msgid "Action to execute"
 msgstr "Action to execute"
 
-#: gimp-stable-diffusion.py:1147
+#: gimp-stable-diffusion.py:1148
 msgid "_Model to apply"
 msgstr "_Model to use"
 
-#: gimp-stable-diffusion.py:1156
+#: gimp-stable-diffusion.py:1157
 msgid "Init Stren_gth"
 msgstr "_Denoising"
 
-#: gimp-stable-diffusion.py:1158
+#: gimp-stable-diffusion.py:1159
 msgid ""
 "The higher the value, your initial image will have more relevance when "
 "transforming"
@@ -221,53 +221,53 @@ msgstr ""
 "How much of the original image to convert to noise and regenerate. "
 "The higher you set this, the more the image changes."
 
-#: gimp-stable-diffusion.py:1167
+#: gimp-stable-diffusion.py:1168
 msgid "Prompt Stre_ngth"
 msgstr "_CFG"
 
-#: gimp-stable-diffusion.py:1168
+#: gimp-stable-diffusion.py:1169
 msgid "How much the AI will follow the prompt, the higher, the more obedient"
 msgstr ""
 "How strongly the AI follows the prompt vs how much creativity to allow it. "
 "Set to 1 for Flux, use 2-4 for LCM and lightning, 5-7 is common for SDXL "
 "models, 6-9 is common for sd15."
 
-#: gimp-stable-diffusion.py:1176
+#: gimp-stable-diffusion.py:1177
 msgid "S_teps"
 msgstr "S_teps"
 
-#: gimp-stable-diffusion.py:1177
+#: gimp-stable-diffusion.py:1178
 msgid "More steps mean more details, affects time and GPU usage"
 msgstr "How many sampling steps to perform for generation. Should "
 "generally be at least double the CFG unless using a second-order "
 "or higher sampler (anything with dpmpp is second order)"
 
-#: gimp-stable-diffusion.py:1185
+#: gimp-stable-diffusion.py:1186
 msgid "_# of Images"
 msgstr "Image _Count"
 
-#: gimp-stable-diffusion.py:1187
+#: gimp-stable-diffusion.py:1188
 msgid ""
 "Number of images to view the transformation from the original to the target "
 "prompt"
 msgstr "Number of images to generate"
 
-#: gimp-stable-diffusion.py:1197
+#: gimp-stable-diffusion.py:1198
 msgid "S_eed (optional)"
 msgstr "S_eed (optional)"
 
-#: gimp-stable-diffusion.py:1199
+#: gimp-stable-diffusion.py:1200
 msgid ""
 "If you want the process repeatable, put something here, otherwise, enthropy "
 "will win"
 msgstr ""
 "Set a seed to regenerate (reproducible), or it'll be chosen at random by the worker."
 
-#: gimp-stable-diffusion.py:1207
+#: gimp-stable-diffusion.py:1208
 msgid "_Prompt"
 msgstr "_Prompt"
 
-#: gimp-stable-diffusion.py:1209
+#: gimp-stable-diffusion.py:1210
 msgid ""
 "Let your imagination run wild or put a proper description of your desired "
 "output."
@@ -276,54 +276,54 @@ msgstr ""
 "Use full grammar for Flux, use tag-like language for sd15, use short phrases for sdxl. "
 "Pony, Noob, Illustrious are SDXL with strong understanding of booru tags"
 
-#: gimp-stable-diffusion.py:1216
+#: gimp-stable-diffusion.py:1217
 msgid "NSF_W"
 msgstr "NSF_W"
 
-#: gimp-stable-diffusion.py:1217
+#: gimp-stable-diffusion.py:1218
 msgid "If not marked, it's faster, when marked you are on the edge..."
 msgstr ""
 "Whether or not your image is intended to be NSFW. May reduce generation speed (workers can choose if they wish to take nsfw requests)"
 
-#: gimp-stable-diffusion.py:1223
+#: gimp-stable-diffusion.py:1224
 msgid "Censor NS_FW"
 msgstr "Censor NS_FW"
 
-#: gimp-stable-diffusion.py:1224
+#: gimp-stable-diffusion.py:1225
 msgid "Allow if you want to avoid unexpected images..."
 msgstr "Separate from the NSFW flag, should workers return nsfw images. Censorship is implemented to be safe and overcensor rather than risk returning unwanted NSFW."
 
-#: gimp-stable-diffusion.py:1230
+#: gimp-stable-diffusion.py:1231
 msgid "API _key (optional)"
 msgstr "API _key (optional)"
 
-#: gimp-stable-diffusion.py:1231
+#: gimp-stable-diffusion.py:1232
 msgid "Get yours at https://stablehorde.net/ for free"
 msgstr "Get yours at https://aihorde.net/register for free. Recommended: Anonymous users are last in the queue."
 
-#: gimp-stable-diffusion.py:1237
+#: gimp-stable-diffusion.py:1238
 msgid "Max Wait (min_utes)"
 msgstr "Max Wait (in min_utes)"
 
-#: gimp-stable-diffusion.py:1239
+#: gimp-stable-diffusion.py:1240
 msgid ""
 "Depends on your patience and your kudos.  You'll get a complain message if "
 "timeout is reached"
 msgstr "How long to wait for your generation to complete. Depends on number of workers and user priority (more kudos = more priority. Anonymous users are last)"
 
-#: gimp-stable-diffusion.py:1329
+#: gimp-stable-diffusion.py:1330
 msgid "Please enter a prompt."
 msgstr "Please enter a prompt."
 
-#: gimp-stable-diffusion.py:1348 gimp-stable-diffusion.py:1385
+#: gimp-stable-diffusion.py:1349 gimp-stable-diffusion.py:1386
 msgid "Your image needs to be between 64x64 and 1024x1024."
 msgstr "Your image needs to be between 64 and 3072 on each side, and at most 2048x2048=4194304 pixels"
 
-#: gimp-stable-diffusion.py:1391
+#: gimp-stable-diffusion.py:1392
 msgid "When inpainting, the image must have an alpha channel."
 msgstr "When inpainting, the image must have an alpha channel."
 
-#: gimp-stable-diffusion.py:1422
+#: gimp-stable-diffusion.py:1423
 msgid "Stable Horde work"
 msgstr "Stable Horde work"
 
